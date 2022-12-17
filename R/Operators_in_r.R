@@ -35,11 +35,11 @@ print(a!=b)
 #Logical operators
 x <- 7
 y <- 10
-print(a&b)
-print(a&&b)
-print(a|b)
-print(a||b)
-print(a!b)
+print(x&y)
+print(x&&y)
+print(x|y)
+print(x||y)
+print(x!y)
 
 
 # Assignment operators
