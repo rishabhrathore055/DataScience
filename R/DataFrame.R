@@ -10,3 +10,9 @@ job_title <- c("Professional", "Programmer", "Management", "Clerical", "Develope
 employee <- data.frame(id, name, job_title)
 
 head(employee)
+
+enroll <-c(1:5)
+name <- c("Akash","Aditya","Ajay","Ajeet","Ashish")
+feild <- c("Webd","Cloud","Java","Webd","Andriod")
+student <- data.frame(enroll,name,feild)
+head(student)
