@@ -12,7 +12,13 @@ employee <- data.frame(id, name, job_title)
 head(employee)
 
 enroll <-c(1:5)
-name <- c("Akash","Aditya","Ajay","Ajeet","Ashish")
+
+name <- c("Akash Rajput","Aditya Soni","Ajay Rathore","Ajeet raghuwanshi","Ashish singh")
+
 feild <- c("Webd","Cloud","Java","Webd","Andriod")
+
 student <- data.frame(enroll,name,feild)
+
 head(student)
+separate(student,name,into=c('first_name','last_name'),sep=' ')
+
