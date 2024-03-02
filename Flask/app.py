@@ -26,7 +26,9 @@ def date():
 def request_input():
     data = request.args.get('x')
     return "this is the input given by the user {}".format(data)
-
+@app.route('/hello')
+def govnid():
+    return "Govind Bhai"
 
 if __name__ == "__main__":
     app.run(debug=True)
